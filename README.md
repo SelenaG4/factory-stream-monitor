@@ -96,9 +96,10 @@ the persisted MLlib pipeline** on a fresh sample.
 
 ### Live demo
 
-Deployed on Render's free tier: **[link added once deployed]**. A continuous stream can't run on a free
-tier, so the deployed page replays the recorded stream outputs on a live cursor; the full Kafka+Spark
-pipeline runs locally via docker-compose. Free tier spins down after 15 min idle (first hit ~30–50 s).
+Deployed on Render's free tier: **https://factory-stream-monitor.onrender.com**. A continuous stream
+can't run on a free tier, so the deployed page replays the recorded stream outputs on a live cursor; the
+full Kafka+Spark pipeline runs locally via docker-compose. Free tier spins down after 15 min idle (first
+hit ~30–50 s).
 
 ## What I'd do next
 
