@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+mlflow.db
+mlruns/
+.venv/
+data/stream_in/
+data/_checkpoints/
+data/stream_out/window_metrics/_spark_metadata/
+.DS_Store

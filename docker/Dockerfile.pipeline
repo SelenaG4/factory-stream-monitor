@@ -1,0 +1,13 @@
+# Producer + Spark Structured Streaming job (needs the JVM for Spark).
+FROM python:3.11-slim
+RUN apt-get update && apt-get install -y --no-install-recommends openjdk-17-jre-headless \
+    && rm -rf /var/lib/apt/lists/*
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+WORKDIR /app
+COPY requirements-pipeline.txt .
+RUN pip install --no-cache-dir -r requirements-pipeline.txt
+COPY stream/ stream/
+COPY data/model/ data/model/
+COPY data/reference/ data/reference/
+# the Spark<->Kafka connector jar is fetched at submit time via --packages
+ENV PYSPARK_SUBMIT_ARGS="--packages org.apache.spark:spark-sql-kafka-0-10_2.13:4.0.0 pyspark-shell"

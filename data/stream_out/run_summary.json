@@ -1,0 +1,26 @@
+{
+  "n_events": 9000,
+  "n_alerts": 1368,
+  "alert_rate_pct": 15.2,
+  "true_anomaly_rate_pct": 5.83,
+  "n_incidents": 1368,
+  "incidents_by_cause": {
+    "bearing wear": 1182,
+    "tool wear": 41,
+    "spindle overheat": 145
+  },
+  "incidents_by_severity": {
+    "critical": 1100,
+    "warning": 201,
+    "watch": 67
+  },
+  "sites": [
+    "Basel",
+    "Geneva",
+    "Zurich"
+  ],
+  "machines": 12,
+  "drift_batches": 6,
+  "max_drift_z_end": 1.85,
+  "drifted_at_end": 2
+}

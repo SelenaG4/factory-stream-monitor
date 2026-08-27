@@ -1,0 +1,7 @@
+# Serving layer (dashboard only) -- reads the streamed artifacts; no Spark at serve.
+streamlit==1.62.0
+plotly==6.3.1
+pandas==2.3.3
+numpy==2.4.4
+pyarrow==22.0.0
+streamlit-autorefresh==1.0.1

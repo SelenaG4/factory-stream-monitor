@@ -1,0 +1,6 @@
+{"n_drifted_sensors": 0, "max_drift_z": 0.047, "total_out_of_spec": 0, "batch_id": 0, "n_events": 1500, "n_alerts": 58}
+{"n_drifted_sensors": 0, "max_drift_z": 0.051, "total_out_of_spec": 0, "batch_id": 1, "n_events": 1500, "n_alerts": 70}
+{"n_drifted_sensors": 0, "max_drift_z": 0.053, "total_out_of_spec": 0, "batch_id": 2, "n_events": 1500, "n_alerts": 84}
+{"n_drifted_sensors": 0, "max_drift_z": 0.112, "total_out_of_spec": 0, "batch_id": 3, "n_events": 1500, "n_alerts": 90}
+{"n_drifted_sensors": 0, "max_drift_z": 0.843, "total_out_of_spec": 0, "batch_id": 4, "n_events": 1500, "n_alerts": 205}
+{"n_drifted_sensors": 2, "max_drift_z": 1.852, "total_out_of_spec": 0, "batch_id": 5, "n_events": 1500, "n_alerts": 861}
